@@ -1,0 +1,17 @@
+name: Lingvist会员
+desc: 延长Lingvist会员时间
+
+http:
+  mitm:
+    - 'payment-api.lingvist.com'
+  script:
+    - match: ^https:\/\/payment-api\.lingvist.com/1\.4/user/services$
+      name: LV.response
+      type: response
+      require-body: true
+      timeout: 10
+      
+script-providers:
+  LV.response:
+    url: https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/Script/WPS.js
+    interval: 86400
