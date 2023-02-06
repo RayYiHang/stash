@@ -13,5 +13,5 @@ http:
       
 script-providers:
   LV.response:
-    url: https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/Script/WPS.js
+    url: https://raw.githubusercontent.com/RayYiHang/stash/main/script/Lingvist.js
     interval: 86400
