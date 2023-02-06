@@ -5,7 +5,7 @@ http:
   mitm:
     - 'payment-api.lingvist.com'
   script:
-    - match: ^https:\/\/payment-api\.lingvist.com/1\.4/user/services$
+    - match: ^https:\/\/payment-api\.lingvist.com/1\.4/user/services
       name: LV.response
       type: response
       require-body: true
