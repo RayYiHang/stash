@@ -48,5 +48,5 @@ http:
 
 script-providers:
   "TestFlight App 获取信息":
-    url: https://github.com/DecoAri/JavaScript/blob/main/Surge/TF_keys.js
+    url: https://raw.githubusercontent.com/DecoAri/JavaScript/main/Surge/TF_keys.js
     interval: 86400
