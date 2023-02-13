@@ -44,7 +44,7 @@ http:
     - match: ^https:\/\/testflight\.apple\.com\/v3\/accounts/.*\/apps$
       name: "TestFlight App 获取信息"
       type: request
-      timeout: 30
+      require-body: false
 
 script-providers:
   "TestFlight App 获取信息":
