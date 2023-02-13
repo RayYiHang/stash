@@ -43,7 +43,7 @@ desc: >-
 cron:
   script:
     - name: "TestFlight 自动加入"
-      cron: "*/59 * * * *"
+      cron: "*/1 * * * *"
 script-providers:
   "TestFlight 自动加入":
     url: https://raw.githubusercontent.com/DecoAri/JavaScript/main/Surge/Auto_join_TF.js
