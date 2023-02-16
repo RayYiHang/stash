@@ -13,5 +13,5 @@ http:
       
 script-providers:
   TR.response:
-    url: https://raw.githubusercontent.com/RayYiHang/stash/main/script/Termius.js
+    url: https://raw.githubusercontent.com/RayYiHang/stash/main/script/termius.js
     interval: 86400
