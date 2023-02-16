@@ -1,0 +1,17 @@
+name: Termius会员解锁
+desc: Termius会员解锁
+
+http:
+  mitm:
+    - 'api.termius.com'
+  script:
+    - match: ^https://api\.termius\.com/api/v4/bulk/account/
+      name: TR.response
+      type: response
+      require-body: true
+      timeout: 10
+      
+script-providers:
+  TR.response:
+    url: https://raw.githubusercontent.com/RayYiHang/stash/main/script/Termius.js
+    interval: 86400
